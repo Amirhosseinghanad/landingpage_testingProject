@@ -111,11 +111,11 @@ button {
   color: #fff;
   font-family: estead;
   padding: 10px;
-  border-radius: 12px;
+  border-radius: 14px;
 }
 .header_land .title_header_sec2 .butt_header2:hover {
   background: #fff;
-  border: solid 1px rgba(4, 4, 54, 1);
+  border: solid 1px #040436;
   color: rgba(4, 4, 54, 1);
   border-radius: 12px;
   transition: all 0.4s;
