@@ -169,7 +169,6 @@ button {
   font-family: estead;
 }
 .offer_sec .title_of_why_we {
-  margin: 30rem 30rem;
   text-align: center;
   font-family: estead;
   padding: 40px;
@@ -181,6 +180,7 @@ button {
   gap: 30px;
   justify-content: space-between;
   border-radius: 5px;
+  background-color: #29294821;
 }
 .offer_sec .offer .offer_slide{
     padding: 2rem;
@@ -201,4 +201,20 @@ button {
   border-radius: 5px;
   color: #040436;
   margin-top: 3rem;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  width: 40%;
+  justify-content: center;
+}
+
+.divider:before,
+.divider:after {
+  content: '';
+  flex: 0 1 100%;
+  border-bottom: 1px solid #ccc;
+  margin: 0 1rem;
+  width: 50%;
 }
