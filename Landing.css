@@ -25,6 +25,11 @@ button {
   border: none;
 }
 
+.line{
+  border: solid 1px #CBCBCB;
+  width: 10px;
+}
+
 .main_app {
   max-width: 1750px;
   margin: auto;
@@ -126,7 +131,7 @@ button {
 }
 .about_sec {
   margin-top: 3rem;
-  height: 500px;
+  height: 600px;
 }
 .about_sec .why_we {
   text-align: center;
@@ -160,8 +165,40 @@ button {
   height: 200px;
 }
 .offer_sec {
-  margin: 4rem 0rem;
+  text-align: center;
+  font-family: estead;
+}
+.offer_sec .title_of_why_we {
+  margin: 30rem 30rem;
   text-align: center;
   font-family: estead;
   padding: 40px;
+}
+.offer_sec .offer {
+  padding: 0rem 2rem;
+  margin:  4rem;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.offer_sec .offer .offer_slide{
+    padding: 2rem;
+    margin: 0.5rem;
+}
+.offer_slide_re{
+  border: solid 1px #cbcbcb;
+  border-radius: 5px;
+}
+.offer_slide_sp{
+  background-color: #040436;
+  color: white;
+}
+.call{
+  background: #fff;
+  padding: 8px;
+  font-family: estead;
+  border-radius: 5px;
+  color: #040436;
+  margin-top: 3rem;
 }
