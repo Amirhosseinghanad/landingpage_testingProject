@@ -25,9 +25,11 @@ button {
   border: none;
 }
 
-.line{
-  border: solid 1px #CBCBCB;
-  width: 10px;
+.line {
+  border-bottom: solid 1px #cbcbcb;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .main_app {
@@ -174,27 +176,30 @@ button {
   padding: 40px;
 }
 .offer_sec .offer {
-  padding: 0rem 2rem;
-  margin:  4rem;
+  padding: 40px;
+  margin: 4rem;
   display: flex;
-  gap: 30px;
+  gap: 10px;
   justify-content: space-between;
   border-radius: 5px;
-  background-color: #29294821;
+  background-color: #29294812;
+  height: 400px;
 }
-.offer_sec .offer .offer_slide{
-    padding: 2rem;
-    margin: 0.5rem;
+.offer_sec .offer .offer_slide {
+  padding: 1rem 2rem;
 }
-.offer_slide_re{
-  border: solid 1px #cbcbcb;
+.offer_slide_re {
+  background-color: #fff;
   border-radius: 5px;
 }
-.offer_slide_sp{
-  background-color: #040436;
-  color: white;
+.offer_slide_sp {
+  background-color: #fff;
 }
-.call{
+.offer_sar {
+  padding: 30px;
+  display: flex;
+}
+.call {
   background: #fff;
   padding: 8px;
   font-family: estead;
@@ -212,7 +217,7 @@ button {
 
 .divider:before,
 .divider:after {
-  content: '';
+  content: "";
   flex: 0 1 100%;
   border-bottom: 1px solid #ccc;
   margin: 0 1rem;
