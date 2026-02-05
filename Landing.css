@@ -250,3 +250,7 @@ button {
   width: 20px;
   fill: #040436;
 }
+.comment_customer {
+  margin: 3rem 0rem;
+  text-align: center;
+}
