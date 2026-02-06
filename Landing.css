@@ -11,7 +11,7 @@
 @font-face {
   font-family: estead; /* set name */
   src: url(./assest/font/Estedad-Black.ttf);
-  font-weight: bold;
+  font-weight: bolder;
 }
 @font-face {
   font-family: estead; /* set name */
@@ -273,12 +273,30 @@ button {
 .comment {
   border-radius: 10px;
   background-color: #29294812;
-  padding: 30px;
+  padding: 15px;
   color: #040436;
 }
 .comment_sec {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 30px;
-  margin-top:60px;
+  margin-top: 60px;
+}
+.about_us_secQ {
+  padding: 30px;
+  gap: 30px;
+}
+.slide_about_us {
+  font-family: estead;
+  font-weight: bold;
+  border: #cbcbcb solid 1px;
+  border-radius: 15px;
+  margin: 15px;
+}
+.Qesution {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  gap: 30px;
 }
