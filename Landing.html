@@ -54,7 +54,7 @@
               <button class="butt_header2">شروع کنید</button>
             </div>
           </div>
-          <div>
+          <div class="header_sec2_img">
             <img
               class="header_image"
               src="./assest/vecteezy_3d-icon-internet-cyber-crime-search_19782467.png"
@@ -159,11 +159,11 @@
         <div
           style="
             height: 100%;
-            display: block;
             position: relative;
             bottom: 15rem;
             z-index: -1000;
           "
+          class="show_back"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -212,229 +212,194 @@
         </div>
       </section>
       <section class="offer_sec">
-        <div style="display: flex; justify-content: center">
-          <div class="divider">
-            <span style="width: 600%" class="title_of_why_we"
-              >طرح های پیشنهادی تیم ما</span
-            >
+        <h2 class="title_of_why_we">پلن‌های ویژه ما</h2>
+
+        <div class="offer">
+          <!-- پلن اول -->
+          <div class="offer_card">
+            <div class="offer_icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23M15.5,11C14.7,11 14,10.3 14,9.5C14,8.7 14.7,8 15.5,8C16.3,8 17,8.7 17,9.5C17,10.3 16.3,11 15.5,11Z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="offer_title">پلن پایه</h3>
+            <div class="offer_price">
+              <div class="price">29<span class="currency">هزار</span></div>
+              <div class="period">ماهانه</div>
+            </div>
+            <ul class="feature_list">
+              <li class="feature_item">
+                <span>5 پروژه همزمان</span>
+                <svg class="check_icon" viewBox="0 0 24 24">
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                  ></path>
+                </svg>
+              </li>
+              <li class="feature_item">
+                <span>پشتیبانی 24 ساعته</span>
+                <svg class="check_icon" viewBox="0 0 24 24">
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                  ></path>
+                </svg>
+              </li>
+              <li class="feature_item">
+                <span>فضای ذخیره‌سازی 10GB</span>
+                <svg class="x_icon" viewBox="0 0 24 24">
+                  <path
+                    d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"
+                  ></path>
+                </svg>
+              </li>
+            </ul>
+            <button class="offer_button secondary">شروع کنید</button>
+          </div>
+
+          <!-- پلن دوم (محبوب) -->
+          <div class="offer_card popular">
+            <div class="badge">پیشنهاد ویژه</div>
+            <div class="offer_icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1Z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="offer_title">پلن حرفه‌ای</h3>
+            <div class="offer_price">
+              <div class="price">79<span class="currency">هزار</span></div>
+              <div class="period">ماهانه</div>
+              <div class="discount">120 هزار تومان</div>
+            </div>
+            <ul class="feature_list">
+              <li class="feature_item active">
+                <span>پروژه‌های نامحدود</span>
+                <svg class="check_icon" viewBox="0 0 24 24">
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                  ></path>
+                </svg>
+              </li>
+              <li class="feature_item active">
+                <span>پشتیبانی VIP</span>
+                <svg class="check_icon" viewBox="0 0 24 24">
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                  ></path>
+                </svg>
+              </li>
+              <li class="feature_item active">
+                <span>فضای ذخیره‌سازی 100GB</span>
+                <svg class="check_icon" viewBox="0 0 24 24">
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                  ></path>
+                </svg>
+              </li>
+            </ul>
+            <button class="offer_button">انتخاب پلن</button>
+          </div>
+
+          <!-- پلن سوم -->
+          <div class="offer_card">
+            <div class="offer_icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M18,8H6V6H18V8M18,11H6V9H18V11M18,14H6V12H18V14M22,4A2,2 0 0,0 20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H18L22,22V4Z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="offer_title">پلن سازمانی</h3>
+            <div class="offer_price">
+              <div class="price">199<span class="currency">هزار</span></div>
+              <div class="period">ماهانه</div>
+            </div>
+            <ul class="feature_list">
+              <li class="feature_item active">
+                <span>همه ویژگی‌های حرفه‌ای</span>
+                <svg class="check_icon" viewBox="0 0 24 24">
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                  ></path>
+                </svg>
+              </li>
+              <li class="feature_item active">
+                <span>سرور اختصاصی</span>
+                <svg class="check_icon" viewBox="0 0 24 24">
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                  ></path>
+                </svg>
+              </li>
+              <li class="feature_item active">
+                <span>مشاوره اختصاصی</span>
+                <svg class="check_icon" viewBox="0 0 24 24">
+                  <path
+                    d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                  ></path>
+                </svg>
+              </li>
+            </ul>
+            <button class="offer_button secondary">تماس با ما</button>
           </div>
         </div>
-        <section class="offer">
-          <div class="offer_slide offer_slide_sp" style="width: 40%">
-            <span style="color: #040436; font-weight: bold; font-size: larger"
-              >پرمیموم</span
-            >
-            <span
-              style="
-                display: block;
-                margin: 20px 0px;
-                color: #040436;
-                font-weight: bold;
-                font-size: medium;
-              "
-              >$سالانه ۵۰۰۰ دلار</span
-            >
-            <div class="line"></div>
-            <div class="tick_dec">
-              <span class="title_tick_icon">
-                پشتیبانی ۲۴ ساعته در همه ایام </span
-              ><span
-                ><svg
-                  id="Layer_1"
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 457.57"
-                  class="tick_icon"
-                >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill-rule: evenodd;
-                      }
-                    </style>
-                  </defs>
-                  <path
-                    class="cls-1"
-                    d="M0,220.57c100.43-1.33,121-5.2,191.79,81.5,54.29-90,114.62-167.9,179.92-235.86C436-.72,436.5-.89,512,.24,383.54,143,278.71,295.74,194.87,457.57,150,361.45,87.33,280.53,0,220.57Z"
-                  /></svg
-              ></span>
-            </div>
 
-            <div class="tick_dec">
-              <span class="title_tick_icon">
-                پشتیبانی ۲۴ ساعته در همه ایام </span
-              ><span
-                ><svg
-                  id="Layer_1"
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 457.57"
-                  class="tick_icon"
-                >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill-rule: evenodd;
-                      }
-                    </style>
-                  </defs>
-                  <path
-                    class="cls-1"
-                    d="M0,220.57c100.43-1.33,121-5.2,191.79,81.5,54.29-90,114.62-167.9,179.92-235.86C436-.72,436.5-.89,512,.24,383.54,143,278.71,295.74,194.87,457.57,150,361.45,87.33,280.53,0,220.57Z"
-                  /></svg
-              ></span>
-            </div>
-            <button class="call" style="background: #004e3c">شروع کنید</button>
+        <!-- جدول مقایسه -->
+        <div class="comparison_table">
+          <h3>مقایسه پلن‌ها</h3>
+          <div class="table_wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>ویژگی</th>
+                  <th>پایه</th>
+                  <th>حرفه‌ای</th>
+                  <th>سازمانی</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>پروژه‌های همزمان</td>
+                  <td>5</td>
+                  <td>نامحدود</td>
+                  <td>نامحدود</td>
+                </tr>
+                <tr>
+                  <td>پشتیبانی</td>
+                  <td>24 ساعته</td>
+                  <td>VIP</td>
+                  <td>VIP + اختصاصی</td>
+                </tr>
+                <tr>
+                  <td>فضای ذخیره‌سازی</td>
+                  <td>10GB</td>
+                  <td>100GB</td>
+                  <td>1TB</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="offer_slide offer_slide_re" style="width: 60%">
-            <span style="color: #040436; font-weight: bold; font-size: larger"
-              >پرو</span
-            >
-            <span
-              style="
-                display: block;
-                margin: 20px 0px;
-                color: #040436;
-                font-weight: bold;
-                font-size: medium;
-              "
-              >$سالانه ۵۰۰۰ دلار</span
-            >
-            <div class="line"></div>
-            <div class="tick_dec">
-              <span class="title_tick_icon">
-                پشتیبانی ۲۴ ساعته در همه ایام </span
-              ><span
-                ><svg
-                  id="Layer_1"
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 457.57"
-                  class="tick_icon"
-                >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill-rule: evenodd;
-                      }
-                    </style>
-                  </defs>
-                  <path
-                    class="cls-1"
-                    d="M0,220.57c100.43-1.33,121-5.2,191.79,81.5,54.29-90,114.62-167.9,179.92-235.86C436-.72,436.5-.89,512,.24,383.54,143,278.71,295.74,194.87,457.57,150,361.45,87.33,280.53,0,220.57Z"
-                  /></svg
-              ></span>
-            </div>
+        </div>
 
-            <div class="tick_dec">
-              <span class="title_tick_icon">
-                پشتیبانی ۲۴ ساعته در همه ایام </span
-              ><span
-                ><svg
-                  id="Layer_1"
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 457.57"
-                  class="tick_icon"
-                >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill-rule: evenodd;
-                      }
-                    </style>
-                  </defs>
-                  <path
-                    class="cls-1"
-                    d="M0,220.57c100.43-1.33,121-5.2,191.79,81.5,54.29-90,114.62-167.9,179.92-235.86C436-.72,436.5-.89,512,.24,383.54,143,278.71,295.74,194.87,457.57,150,361.45,87.33,280.53,0,220.57Z"
-                  /></svg
-              ></span>
-            </div>
-            <button class="call" style="background: #5c00b9">شروع کنید</button>
-          </div>
-          <div class="offer_slide offer_slide_re" style="width: 40%">
-            <span style="color: #040436; font-weight: bold; font-size: larger"
-              >پایه</span
-            >
-            <span
-              style="
-                display: block;
-                margin: 20px 0px;
-                color: #040436;
-                font-weight: bold;
-                font-size: medium;
-              "
-              >$سالانه ۵۰۰۰ دلار</span
-            >
-            <div class="line"></div>
-            <div class="tick_dec">
-              <span class="title_tick_icon">
-                پشتیبانی ۲۴ ساعته در همه ایام </span
-              ><span
-                ><svg
-                  id="Layer_1"
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 457.57"
-                  class="tick_icon"
-                >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill-rule: evenodd;
-                      }
-                    </style>
-                  </defs>
-                  <path
-                    class="cls-1"
-                    d="M0,220.57c100.43-1.33,121-5.2,191.79,81.5,54.29-90,114.62-167.9,179.92-235.86C436-.72,436.5-.89,512,.24,383.54,143,278.71,295.74,194.87,457.57,150,361.45,87.33,280.53,0,220.57Z"
-                  /></svg
-              ></span>
-            </div>
-            <div class="tick_dec">
-              <span class="title_tick_icon">
-                پشتیبانی ۲۴ ساعته در همه ایام </span
-              ><span
-                ><svg
-                  id="Layer_1"
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 457.57"
-                  class="tick_icon"
-                >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill-rule: evenodd;
-                      }
-                    </style>
-                  </defs>
-                  <path
-                    class="cls-1"
-                    d="M0,220.57c100.43-1.33,121-5.2,191.79,81.5,54.29-90,114.62-167.9,179.92-235.86C436-.72,436.5-.89,512,.24,383.54,143,278.71,295.74,194.87,457.57,150,361.45,87.33,280.53,0,220.57Z"
-                  /></svg
-              ></span>
-            </div>
-            <button class="call" style="background: #fc8517">شروع کنید</button>
-          </div>
-          <div class="offer_slide">
-            <span style="font-weight: bold; color: rgba(4, 4, 54, 1)"
-              >پیشنهاد های ویژه برای شما</span
-            >
-            <p style="color: #848484; font-size: smaller; font-weight: lighter">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
-            </p>
-            <div class="line" style="background-color: #848484"></div>
-            <span style="font-weight: bold; color: #040436"
-              >پیشنهاد های ویژه برای شما</span
-            >
-            <p style="color: #848484; font-size: smaller; font-weight: lighter">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-              نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+        <!-- CTA -->
+        <div class="cta_section">
+          <div class="cta_content">
+            <h3 class="cta_title">هنوز مطمئن نیستید؟</h3>
+            <p class="cta_description">
+              می‌توانید ۱۴ روز به طور رایگان از خدمات ما استفاده کنید و سپس
+              تصمیم بگیرید
             </p>
           </div>
-        </section>
+          <button class="cta_button">
+            شروع دوره آزمایشی رایگان
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M10,17V7L15,12L10,17Z"></path>
+            </svg>
+          </button>
+        </div>
       </section>
       <section style="padding: 30px">
         <div style="display: flex; justify-content: center; text-align: center">
