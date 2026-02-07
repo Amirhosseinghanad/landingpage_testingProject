@@ -6,12 +6,12 @@
 @font-face {
   font-family: estead; /* set name */
   src: url(./assest/font/Estedad-Medium.ttf);
-  font-weight: bolder; /* url of the font */
+  font-weight: bold; /* url of the font */
 }
 @font-face {
   font-family: estead; /* set name */
   src: url(./assest/font/Estedad-Black.ttf);
-  font-weight: bold;
+  font-weight: 900;
 }
 @font-face {
   font-family: estead; /* set name */
@@ -313,5 +313,17 @@ button {
 .footer button {
   font-family: estead;
   font-weight: bolder;
+  color: #040436;
+}
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease-in-out;
+  border-radius: 15px;
+}
+
+.inner {
+  padding: 15px;
+  font-weight: bold;
   color: #040436;
 }
